@@ -6,4 +6,4 @@ Very basic JS for a simple necessity... changing colours of text based on time o
 Easy to use, just import dusk.js on your project and use the function to execute it based on you refresh time.
 
 
-dusk(/*DOM Element*/, /* miliseconds interval */);
+dusk(/* DOM Element */, /* miliseconds interval */);
