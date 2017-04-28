@@ -29,9 +29,6 @@ function changeColor(elementDOM) {
     if (document.getElementById(elementDOM)) document.getElementById(elementDOM).style.color = "rgb(" + colors[0] + "," + colors[1] + "," + colors[2] + ")";
 }
 
-
 function dusk(elementDOM, interval){
 	if(document.getElementById(elementDOM)) setInterval(changeColor, interval, elementDOM);
 }
-
-dusk('title', 2000);
